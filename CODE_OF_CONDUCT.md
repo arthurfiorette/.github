@@ -1,113 +1,98 @@
 # Code of Conduct
 
-## Our Commitment
+<br />
 
-We, as members, contributors, and leaders of this community, are dedicated to fostering an
-inclusive, respectful, and welcoming environment for everyone, regardless of:
+## Philosophy
 
-- Age, body size, visible or invisible disability
-- Ethnicity, nationality, race, caste, color
-- Gender identity and expression, sex characteristics
-- Level of experience, education, socio-economic status
-- Personal appearance, religion, sexual identity, or orientation
+This project prioritizes correctness, security, and long-term maintainability over
+consensus or comfort. Technical decisions involve explicit tradeoffs, and disagreement is
+expected—but only when argued in good faith, with context, and respect for the constraints
+under which the project operates. Absolutist thinking, performative debate, or low-signal
+criticism is treated as noise and will be removed. Participation here is a privilege, not
+an entitlement.
 
-We pledge to act and interact in ways that promote a positive, diverse, and healthy
-community.
+<br />
 
 ## Expected Behavior
 
-All community members are expected to uphold the following standards:
+All participants must:
 
-- **Be Kind & Respectful**: Treat others with empathy, kindness, and respect.
-- **Embrace Differences**: Value diverse perspectives and experiences.
-- **Communicate Constructively**: Provide and accept feedback in a professional and
-  constructive manner.
-- **Be Accountable**: Own up to mistakes, apologize when necessary, and learn from them.
-- **Prioritize the Community**: Act in the best interests of the community rather than
-  personal gain.
+- **Remain strictly professional** Communication must be factual, technical, and focused
+  on the project.
+
+- **Assume good faith, demonstrate competence** Disagreement must acknowledge the likely
+  rationale behind existing decisions.
+
+- **Respect maintainer authority** Maintainers set direction, scope, and priorities. These
+  are not up for debate.
+
+- **Optimize for signal** Avoid repetition, bikeshedding, rhetorical arguments, or
+  meta-discussion.
+
+- **Comply when corrected** Failure to adjust behavior after moderation is grounds for
+  removal.
+
+<br />
 
 ## Unacceptable Behavior
 
-The following behaviors are strictly prohibited:
+The following will result in moderation action:
 
-- **Harassment & Abuse**: Trolling, insults, derogatory comments, personal or political
-  attacks.
-- **Sexual Misconduct**: Sexualized language, imagery, unwelcome advances, or any
-  inappropriate sexual conduct.
-- **Privacy Violations**: Sharing private or sensitive information without consent.
-- **Disruptive Behavior**: Deliberate intimidation, excessive interruptions, or any action
-  that disrupts community discussions.
-- **Unprofessional Conduct**: Any behavior that would be deemed inappropriate in a
-  professional setting.
+- Personal attacks, insults, harassment, or trolling
+- Discriminatory, exclusionary, or hostile language
+- Sexualized content or unwelcome advances
+- Publishing private, identifying, or sensitive information
+- Bad-faith arguments, absolutist security claims, or refusal to engage with tradeoffs
+- Sustained disruption, derailing, or time-wasting behavior
+- Any conduct inconsistent with a professional engineering environment
 
-## Enforcement Responsibilities
-
-Community leaders are responsible for enforcing this Code of Conduct fairly and
-consistently. They have the right to:
-
-- Remove, edit, or reject contributions that violate this Code of Conduct.
-- Take appropriate corrective action, including warnings, temporary bans, or permanent
-  removal.
-- Communicate reasons for moderation decisions where appropriate.
+<br />
 
 ## Scope
 
-This Code of Conduct applies to all community spaces, including:
+This Code of Conduct applies **to all @arthurfiorette's GitHub repositories**, including:
 
-- Online forums, chats, and social media interactions
-- In-person events, meetups, and conferences
-- Any public representation of the community, such as official social media accounts or
-  email communications
+- Issues, pull requests, discussions, reviews, and comments
+- Any interaction using GitHub features under this project or its official forks
 
-## Reporting Violations
+<br />
 
-If you witness or experience unacceptable behavior, please report it to the community
-leaders at **[INSERT CONTACT METHOD]**.
+## Enforcement
 
-We take all reports seriously and will investigate them promptly while ensuring the
-privacy and security of the reporter.
+Enforcement follows GitHub’s moderation model and is entirely at the discretion of the
+maintainers.
 
-## Enforcement Guidelines
+Maintainers may:
 
-Community leaders will follow these guidelines when enforcing this Code of Conduct:
+- **Hide, edit, lock, or delete content**
+- **Issue warnings**
+- **Close issues or pull requests**
+- **Block or ban users from the repository**
+- **Report behavior to GitHub Trust & Safety**
 
-### 1. Warning
+No justification beyond this policy is required. Decisions may be final.
 
-- **Impact**: Minor violations, such as inappropriate language or unprofessional conduct.
-- **Action**: A private warning with clarification of the issue and request for
-  improvement.
+<br />
 
-### 2. Temporary Restrictions
+## Reporting
 
-- **Impact**: Repeated violations or behavior that disrupts community interactions.
-- **Action**: Temporary restrictions on participation, such as limited posting privileges
-  or time-based bans.
+All Code of Conduct violations must be handled **through GitHub**:
 
-### 3. Temporary Ban
+- Use GitHub’s **“Report content”** feature where available
+- For severe cases, maintainers may escalate directly to **GitHub Trust & Safety**
 
-- **Impact**: Serious violations, harassment, or ongoing disruptive behavior.
-- **Action**: A temporary ban from all community activities. Further violations may lead
-  to a permanent ban.
+Do **not** open meta-issues to contest moderation actions. Retaliation against reporters
+will result in immediate removal.
 
-### 4. Permanent Ban
-
-- **Impact**: Severe or repeated breaches of community standards, including harassment,
-  threats, or malicious intent.
-- **Action**: A permanent ban from all community participation.
+<br />
 
 ## Attribution
 
-This Code of Conduct is adapted from the [Contributor Covenant][homepage], version 2.1,
-available at [Contributor Covenant v2.1][v2.1].
+Adapted from:
 
-Community Impact Guidelines were inspired by [Mozilla's Code of Conduct Enforcement
-Ladder][Mozilla CoC].
-
-For frequently asked questions, refer to the [FAQ][FAQ]. Translations are available
-[here][translations].
-
-[homepage]: https://www.contributor-covenant.org
-[v2.1]: https://www.contributor-covenant.org/version/2/1/code_of_conduct.html
-[Mozilla CoC]: https://github.com/mozilla/diversity
-[FAQ]: https://www.contributor-covenant.org/faq
-[translations]: https://www.contributor-covenant.org/translations
+- Contributor Covenant v2.1 —
+  [https://www.contributor-covenant.org](https://www.contributor-covenant.org)
+- GitHub Community Guidelines —
+  [https://docs.github.com/en/site-policy](https://docs.github.com/en/site-policy)
+- Mozilla Code of Conduct Enforcement Ladder —
+  [https://github.com/mozilla/diversity](https://github.com/mozilla/diversity)
