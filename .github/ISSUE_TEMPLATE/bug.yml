@@ -1,37 +1,69 @@
 name: 🐛 Bug Report
-description: Report a bug to help us improve
+description: Report a reproducible bug
 
 body:
+  - type: markdown
+    attributes:
+      value: |
+        ⚠️ **IMPORTANT — AI DISCLOSURE REQUIRED**
+
+        You must disclose whether AI tools were used in any part of the affected code,
+        configuration, tests, or reproduction steps.  
+        Missing or misleading disclosures will result in the issue being closed.
+
   - type: checkboxes
     id: prerequisites
     attributes:
       label: Prerequisites
       options:
-        - label: I have written a clear issue title
+        - label: I have written a clear and specific issue title
           required: true
-        - label: I have searched existing issues to avoid duplicates
+        - label: I have searched existing issues and discussions
           required: true
+        - label: I understand that low-effort or incomplete reports may be closed
+          required: true
+
+  - type: textarea
+    id: ai-disclosure
+    attributes:
+      label: AI Usage Disclosure
+      description: |
+        Single-line answer required.
+
+        Answer **exactly one** of the following:
+        - `No AI used`
+        - `AI used: <tool> / <area> / <purpose>`
+
+        Example:
+        `AI used: ChatGPT / test generation / boilerplate only`
+      placeholder: No AI used
+    validations:
+      required: true
 
   - type: textarea
     id: versions
     attributes:
       label: Versions
       description: List all relevant version numbers.
+      placeholder: |
+        Project version:
+        Runtime / platform:
+        OS:
     validations:
       required: true
-      
+
   - type: input
     id: mre
     attributes:
-      label: A minimal reproducible example
-      placeholder: https://github.com/my-username/bug-example-that-im-reporting
+      label: Minimal Reproducible Example
+      placeholder: https://github.com/username/repro-example
       description: |
-        ⚠️ Issues opened without a minimal reproducible example are going to be treated with low priority.
+        ⚠️ Issues without a minimal reproducible example are treated as **low priority**.
 
-        A repository URL containing a reproducible example that will help out contributors to reproduce your
-        bug in an attempt to find where the problem is.
+        Provide a repository or link that allows maintainers to reproduce the issue
+        with minimal setup.
 
-        https://stackoverflow.com/help/minimal-reproducible-example.
+        See: https://stackoverflow.com/help/minimal-reproducible-example
     validations:
       required: true
 
@@ -39,7 +71,7 @@ body:
     id: description
     attributes:
       label: Bug Description
-      description: Describe the issue clearly.
+      description: Clearly describe what is wrong.
     validations:
       required: true
 
@@ -48,8 +80,8 @@ body:
     attributes:
       label: Steps to Reproduce
       description: |
-        Provide steps, sample code, or a link to a project that reproduces the issue.
-        Include stack traces in a [code block](https://docs.github.com/en/github/writing-on-github/creating-and-highlighting-code-blocks).
+        Provide exact steps, commands, or code.
+        Include stack traces in a GitHub code block.
     validations:
       required: true
 
